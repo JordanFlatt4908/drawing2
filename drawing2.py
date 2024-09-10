@@ -18,7 +18,7 @@ MAGENTA = (255, 0, 255)
 WIDTH = 400
 RADIUS = (200,200)
 DATA = (WINDOW_HEIGHT, WINDOW_WIDTH)
-pygame.draw.surface = (display_surface, GREEN, DATA)
+pygame.draw.surface = (MAGENTA, DATA)
 
 running = True
 while running:
